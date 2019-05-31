@@ -16,6 +16,13 @@
 						<div className="col-6">
 							<ShowStats />
 						</div>
+						<br/>
+						<br/>
+						<br/>
+						<div>
+						<img className="logo img-fluid" alt="list" src={require("../images/lista.png" )}/>
+						</div>
+
 					</div>
 				</div>
 

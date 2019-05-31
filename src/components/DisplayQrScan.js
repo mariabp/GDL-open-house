@@ -10,29 +10,42 @@
 		render () {
 
 			return (
+				<div class="container">
+						<div class="row">
+							<div class="col-sm">
+							
+							</div>
+							<div class="col-sm">
+							<div className=" display-qr-scan container" >
+				
+								<div className="row">
 
-				<div className=" display-qr-scan container" >
+									<div className="col text-center">
+									<br/>
+										<Instructions />
+									</div>
 
-					<div className="row">
+								</div>
 
-						<div className="col-4">
-							<Instructions />
+								<div className="row">
+
+									<div className="col">
+										<Scanner />
+									</div>
+
+									<div className="col">
+										<AttendanceMsg />
+									</div>
+
+								</div>
+							</div>
+							</div>
+							<div class="col">
+							</div>
 						</div>
-
 					</div>
-
-					<div className="row">
-
-						<div className="col-6">
-							<Scanner />
-						</div>
-
-						<div className="col-6">
-							<AttendanceMsg />
-						</div>
-
-					</div>
-				</div>
+				
+				
 
 			);
 
