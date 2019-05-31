@@ -13,11 +13,11 @@
 				<div class="container">
 						<div class="row">
 							<div class="col-sm">
-							
+
 							</div>
 							<div class="col-sm">
 							<div className=" display-qr-scan container" >
-				
+
 								<div className="row">
 
 									<div className="col text-center">
