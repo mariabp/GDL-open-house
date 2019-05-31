@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Stats from './Stats';
+
 
 
 class ShowStats extends Component {
@@ -13,15 +13,15 @@ class ShowStats extends Component {
 				<div className="row">
 
 					<div className="col">
-						<Stats />
+						<div className="stats">Ausencias<p>2</p></div>
 					</div>
 
 					<div className="col">
-						<Stats />
+						<div className="stats">Retardos<p>5</p></div>
 					</div>
 
 					<div className="col">
-						<Stats />
+						<div className="stats">Drop Out<p>3</p></div>
 					</div>
 
 				</div>
