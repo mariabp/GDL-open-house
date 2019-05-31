@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ShowDate from './ShowDate';
-import './Header.css';
 import {NavLink} from 'react-router-dom';
 
 
@@ -25,10 +24,11 @@ class Header extends Component {
 						</div>
 
 						<div className="col-sm-2">
-						<ul className="nav-menu ">
-									<NavLink className="assitance  navitem" to="/scanner">Asistencia</NavLink>
-								 	<NavLink className="home navitem" exact to="/">Inicio</NavLink>
-								</ul>
+						<ul class="nav-menu">
+		                         	<li> <NavLink className="nav-menu__link" exact to="/">Inicio</NavLink></li>
+		                        	<li> <NavLink className="nav-menu__link" to="/scanner">Asistencia</NavLink></li>
+									<li> <NavLink className="nav-menu__link" to="/signIn">Salir</NavLink></li>
+		                        </ul>
 						</div>
 
 
