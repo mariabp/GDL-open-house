@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ShowAttendance.css'
+import './Stats.css'
 
 class ShowAttendance extends Component {
 
