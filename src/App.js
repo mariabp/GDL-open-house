@@ -5,6 +5,7 @@ import Home from './components/Home';
 import DisplayQrScan from './components/DisplayQrScan';
 import './App.css';
 import History from './components/History';
+import SignInForm from './components/SignInForm';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 
 			<Header name="Organa"/ >
 			<Route exact path="/" render = {()=> <Home />} />
+			<Route path="/signIn" render = {()=> <SignInForm />} />
 			<Route exact path="/scanner" render = {()=> <DisplayQrScan />} />
 			<Route path="/history" render = {()=> <History />} />
 
@@ -28,4 +30,3 @@ function App() {
 }
 
 export default App;
-
